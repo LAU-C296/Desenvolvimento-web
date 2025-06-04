@@ -1,0 +1,311 @@
+/*
+    Paleta de cor 
+    principa - {#f5f5f5}
+    secundaria - {#2400f0}
+    destaque - {#222}
+    */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f5f5f5;
+        color: #333;
+        line-height: 1.6;
+        margin-top: 60px;
+      }
+      
+    nav {
+        background-color: #222;
+        padding: 20px 0;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+      
+      h1{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 36px;
+      }
+    
+    
+      .flex-container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 15px;
+        list-style: none;
+      }
+      
+      .color-lyrics {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+      }
+      
+      .color-lyrics:hover {
+        color: #00bcd4;
+      }
+      
+      .img-text {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 20px;
+        background-color: white;
+        border-bottom: 1px solid #ccc;
+      }
+      
+      .img-perfil {
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      .perfil-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+      }
+      
+      .text-perfil {
+        max-width: 500px;
+        padding: 15px;
+        text-align: center;
+      }
+      
+      .bloco-info {
+        background-color: white;
+        padding: 30px 20px;
+        margin: 20px auto;
+        max-width: 800px;
+        border-radius: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        text-align: center;
+      }
+      
+      .bloco-info dl {
+        text-align: left;
+        margin-top: 15px;
+        line-height: 1.6;
+      }
+      
+      .img-linha {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+        margin: 15px auto;
+        display: block;
+      }
+      
+      .titulo-secao {
+        color: #222;
+        font-size: 26px;
+        margin-bottom: 10px;
+      }
+      
+      #projetos {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 28px;
+        color: #222;
+      }
+      
+      #estilizacao {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+        padding: 20px;
+      }
+      
+      .estilizacao {
+        background-color: white;
+        border-radius: 12px;
+        padding: 20px;
+        width: 280px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        transition: transform 0.3s;
+      }
+      
+      .estilizacao:hover {
+        transform: scale(1.03);
+      }
+      
+      #name-personalizado2 {
+        font-size: 20px;
+        color: #222;
+        margin-bottom: 10px;
+      }
+      
+      #detalhamento {
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+      
+      #link-center {
+        color: #00bcd4;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      
+      #link-center:hover {
+        text-decoration: underline;
+      }
+      
+      #certificacoes dt{
+        display: flex;
+        justify-content: row;
+        align-items: row;
+      }
+      
+      .habilidades {
+        background-color: #fff;
+        padding: 30px 20px;
+        text-align: center;
+        margin-top: 30px;
+      }
+      
+      .habilidades h2 {
+        margin-bottom: 15px;
+        color: #222;
+      }
+      
+      .habilidades ul {
+        list-style: none;
+        display: inline-block;
+        text-align: left;
+      }
+      
+      .habilidades li {
+        padding: 5px 0;
+      }
+    
+    
+      footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #2400f0;
+        margin-top: 40px;
+    }
+    
+    footer ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    footer ul li img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    footer p {
+        margin-top: 15px;
+        font-size: 0.9em;
+        color: #e6dcdc;
+    }
+    
+    #color{
+        color:#272121
+    }
+    
+    
+      
+      nav ul {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        list-style: none;
+      }
+      
+      nav ul li {
+        margin: 0 15px;
+      }
+      
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.1rem;
+      }
+      
+      nav ul li a:hover {
+        color: #ff6347;
+      }
+      
+    
+      .img-text {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      }
+      
+     
+      
+      .img-perfil {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      
+      .perfil-container {
+        text-align: left;
+        flex: 1;
+      }
+      
+      /* Responsividade para telas menores (Mobile) */
+      @media screen and (max-width: 768px) {
+        /* Menu vertical no mobile */
+        nav ul {
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        nav ul li {
+          margin: 10px 0;
+        }
+      
+        /* Apresentação com alinhamento vertical no mobile */
+        .img-text {
+          flex-direction: column;
+          text-align: center;
+          align-items: center;
+        }
+      
+        .perfil-container {
+          text-align: center;
+          margin-top: 20px;
+        }
+      
+        .bloco-info {
+          padding: 15px;
+        }
+      
+        /* Ajuste de tamanhos para o mobile */
+        .text-perfil h1 {
+          font-size: 1.8rem;
+        }
+      
+        .img-perfil {
+          width: 120px;
+          height: 120px;
+        }
+      }
+      
+      
+    
+      
